@@ -40,7 +40,14 @@ public class Passenger {
 
     public Passenger() {
     }
+    // METHODS
 
+    public void addFlight(Flight flight) {
+        this.flights.add(flight);
+    }
+
+
+// GETTERS AND SETTERS
     public long getId() {
         return id;
     }
